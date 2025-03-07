@@ -1,0 +1,271 @@
+---
+title: Electricity part 1
+subtitle: Probably more electrical engineering than you asked for ¯|_(ツ)_/¯
+author: Gaelen Guzman
+date: 2/27/25
+
+format:
+  revealjs:
+    css: style.css
+    slide-number: true
+    mainfont: Charter
+    theme: sky
+    auto-stretch: false
+    chalkboard: 
+      buttons: true
+    default-image-extension: png
+    fig-align: center
+---
+
+# What is electricity??
+
+## Electricity is moving charged particles
+
+</br> 
+
+Every atom is made of particles 
+
+:::{.incremental}
+* Protons 
+* Neutrons
+* Electrons 
+:::
+
+![](Pictures/atom.png){.absolute top="300" right="70" height=400}
+
+
+## Electricity is moving charged particles
+
+::::columns
+
+::: {.column width="50%"}
+
+:::r-stack
+:::{.fragment .fade-out fragment-index="1"}
+* *high potential* -> *low potential*
+* Moves energy that can perform work
+:::
+
+:::{.fragment .fade-down fragment-index="1"}
+* *high potential* -> *low potential*, 
+* Moves energy that can perform work
+:::
+:::
+
+:::
+
+:::{.column width="50%"}
+
+:::r-stack
+:::{.fragment .fade-out fragment-index="1"}
+![](  Pictures/direct-currents600_10.gif)
+:::
+
+:::{.fragment .fade-down fragment-index="1"}
+Can pretend it's like water!
+![](  Pictures/Series_1T1B.gif)
+:::
+:::
+
+:::
+::::
+
+## How does electricity do stuff?
+
+
+:::::{.columns}
+:::{.v-center-container}
+:::{.column width="40%"}
+:::{.fragment data-fragment-index="2"}
+- Voltage
+:::
+:::{.fragment data-fragment-index="3"}
+- Current
+:::
+:::{.fragment data-fragment-index="4"}
+- Resistance
+:::
+:::
+
+:::{.column width="60%"}
+:::r-stack
+
+:::{.fragment fragment-index="1"}
+:::{.fragment .fade-out fragment-index="5"}
+![](  Pictures/SimplestCircuit.png){width=600}
+:::
+:::
+
+:::{.fragment fragment-index="5"}
+![](  Pictures/LED.png){.absolute top="150" right="150"}
+:::
+::: {.fragment data-fragment-index="5" align="right"}
+(Example load)
+:::
+
+:::
+:::
+:::
+:::::
+
+## Hands on! LED Circuit #1 
+
+::::: {.columns}
+
+::: {.column width="40%"}
+- Coin battery
+- LED
+:::
+
+::: {.column width="30%"}
+![](  Pictures/CoinBattery.png){fig-align="left" height=200}
+:::
+
+::: {.column width="30%"}
+![](  Pictures/LED.png){fig-align="right" height=400}
+:::
+:::::
+
+
+## Hands on! LED Circuit #1 
+
+::::: {.columns}
+
+::: {.column width="40%"}
+- Coin battery
+- LED
+:::
+
+:::{.column width="60%"}
+![](  Pictures/HandsOn_1.svg){height="400"}
+:::
+
+:::::
+
+
+## Hands on! LED Circuit #2
+
+::::: {.columns}
+
+::: {.column width="40%"}
+- 5 V power supply 
+- LED
+- Breadboard
+- **Resistor**
+:::
+
+::: {.column width="30%"}
+![](  Pictures/AAbatteryHolder.png){fig-align="left" height="300"}
+![](  Pictures/Breadboard.png){.absolute top="300" right="250" height="300"}
+:::
+
+::: {.column width="30%"}
+![](  Pictures/LED.png){fig-align="right" height="400"}
+![](  Pictures/220-Ohm-Resistor.png){.absolute top="400" right="100" height="300"}
+:::
+:::::
+
+::: aside
+Resistors help limit the current of the
+
+ circuit protecting the load from damage!
+:::
+
+## Hands on! LED Circuit #2
+
+::::: {.columns}
+
+::: {.column width="40%"}
+- 5 V power supply 
+- LED
+- Breadboard
+- **Resistor**
+:::
+
+:::{.column width="60%"}
+![](  Pictures/HandsOn_2.svg){height="500"}
+:::
+:::::
+
+## Hands on! LED Circuit #3
+::::: {.columns}
+::: {.column width="40%"}
+- 5 V power supply 
+- LED
+- Breadboard
+- Resistor
+- Button
+:::
+
+::: {.column width="30%"}
+![](  Pictures/AAbatteryHolder.png){fig-align="left" height="300"}
+![](  Pictures/Breadboard.png){.absolute top="300" right="250" height="300"}
+![](  Pictures/Button.png){.absolute top="500" right="450" height="200"}
+:::
+
+::: {.column width="30%"}
+![](  Pictures/LED.png){fig-align="right" height="400"}
+![](  Pictures/220-Ohm-Resistor.png){.absolute top="400" right="100" height="300"}
+:::
+:::::
+
+## Hands on! LED Circuit #3
+
+::::: {.columns}
+
+::: {.column width="40%"}
+
+- 5 V power supply 
+- LED
+- Breadboard
+- Resistor
+- Button
+
+:::
+
+:::{.column width="60%"}
+![](  Pictures/HandsOn_3.svg){height=500}
+:::
+:::::
+
+
+## Hands on! LED Circuit #4
+::::: {.columns}
+::: {.column width="40%"}
+- 5 V power supply 
+- LED
+- Breadboard
+- Resistor
+- Light-dependent resistor
+:::
+
+::: {.column width="30%"}
+![](  Pictures/AAbatteryHolder.png){fig-align="left" height="300"}
+![](  Pictures/Breadboard.png){.absolute top="300" right="250" height="300"}
+![](  Pictures/LDR.png){.absolute top="500" right="350" height="300"}
+:::
+
+::: {.column width="30%"}
+![](  Pictures/LED.png){fig-align="right" height="400"}
+![](  Pictures/220-Ohm-Resistor.png){.absolute top="400" right="100" height="300"}
+:::
+:::::
+
+## Hands on! LED Circuit #4
+
+::::: {.columns}
+
+::: {.column width="40%"}
+
+- 5 V power supply 
+- LED
+- Breadboard
+- Resistor
+- Light dependent resistor
+
+:::
+
+:::{.column width="60%"}
+![](  Pictures/HandsOn_4.svg){height=500}
+:::
+:::::
