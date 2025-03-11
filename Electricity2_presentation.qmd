@@ -99,7 +99,7 @@ void loop() {
   }
   // If the Button is NOT pressed, turn LED off
   if (digitalRead(BUTTON_PIN) == LOW) {
-    digitalWrite(LED_PIN, LOW)     // Turn LED off
+    digitalWrite(LED_PIN, LOW);     // Turn LED off
   }
 
 }
